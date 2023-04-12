@@ -5,11 +5,14 @@
 * {
 	--fundo-pagina: #FFF;
 	--fundo-barra: #00009a;
+	--fundo-footer: #00009a;
 	--fonte: 'Roboto';
 }
 
 body {
-	height: 100vh;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 nav {
@@ -70,4 +73,29 @@ nav {
 	text-decoration: none;
 	color: #FFF;
 	margin-right: 0.5em;
+}
+
+.artigo-apresentacao {
+	margin: auto 1em;
+}
+
+.artigo-apresentacao h2 {
+	margin: 1em 0 0.5em 0;
+}
+
+.artigo-apresentacao p {
+	margin: 0.5em 0;
+}
+
+footer {
+	margin-top: auto;
+	padding: 1em;
+	background-color: var(--fundo-barra);
+}
+
+footer h2 {
+	margin: 0;
+	font-size: 1.25em;
+	color: #FFF;
+	text-align: center;
 }
