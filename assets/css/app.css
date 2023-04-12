@@ -1,0 +1,73 @@
+/* Por Bruno Bonavigo, 2023 */
+/* APS UNIP - Marquês */
+/* Membros do grupo: Bruno Bonavigo, Aluísio, Luís Rogério */
+
+* {
+	--fundo-pagina: #FFF;
+	--fundo-barra: #00009a;
+	--fonte: 'Roboto';
+}
+
+body {
+	height: 100vh;
+}
+
+nav {
+	display: flex;
+	height: 60px;
+	background-color: var(--fundo-barra);
+}
+
+@media (min-width: 426px) {
+	.parte-esquerda {
+		width: 50%;
+	}
+
+	.parte-direita {
+		display: flex;
+		width: 50%;
+	}
+}
+
+@media (max-width: 425px) {
+	.parte-esquerda {
+		width: 100%;
+	}
+	
+	.parte-direita {
+		display: none;
+		width: 0;
+	}
+}
+
+.parte-esquerda {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin: 1em;
+}
+
+.parte-esquerda img {
+	height: 40px;
+	width: 30px;
+}
+
+.parte-esquerda h1 {
+	font-size: 1.25em;
+	margin-left: 0.5em;
+	color: #FFF;
+	font-weight: bold;
+}
+
+.parte-direita {
+	align-items: center;
+	justify-content: flex-end;
+	margin: 1em;
+}
+
+.parte-direita a {
+	font-size: 1.25em;
+	text-decoration: none;
+	color: #FFF;
+	margin-right: 0.5em;
+}
