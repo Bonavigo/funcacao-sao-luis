@@ -48,6 +48,7 @@ nav {
 
 	.parte-esquerda {
 		width: 100%;
+		align-items: center;
 	}
 	
 	.parte-direita {
