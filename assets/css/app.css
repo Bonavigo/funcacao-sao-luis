@@ -68,7 +68,7 @@ nav {
 		font-size: 1.25em;
 		text-decoration: none;
 		color: #FFF;
-		margin-right: 0.5em;
+		margin-left: 0.75em;
 	}
 }
 
@@ -101,7 +101,7 @@ nav {
 	font-size: 1.25em;
 	text-decoration: none;
 	color: #FFF;
-	margin-right: 0.5em;
+	margin-left: 0.75em;
 }
 
 main {
@@ -115,7 +115,7 @@ main .pagina-conteudo {
 }
 
 .pagina-conteudo h2 {
-	margin: 1em 0 0.5em 0;
+	margin: 0.75em 0 0.75em 0;
 	font-size: 1.75em;
 }
 
