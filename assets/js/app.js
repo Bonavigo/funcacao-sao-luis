@@ -7,7 +7,6 @@ const FUNDACAO = {
 		document.getElementById("inicial").style.display = 'none';
 		document.getElementById("padroeiro").style.display = 'none';
 		document.getElementById("metas").style.display = 'none';
-		document.getElementById("estatisticas").style.display = 'none';
 		document.getElementById(pagina).style.display = 'block';
 	}
 }
