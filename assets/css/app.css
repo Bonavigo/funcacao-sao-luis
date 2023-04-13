@@ -92,11 +92,13 @@ nav {
 
 footer {
 	margin-top: auto;
+	display: flex;
+	align-items: center;
 	padding: 1em;
 	background-color: var(--fundo-barra);
 }
 
-footer h2 {
+footer p {
 	margin: 0;
 	font-size: 1.25em;
 	color: #FFF;
