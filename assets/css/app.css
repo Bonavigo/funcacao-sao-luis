@@ -2,6 +2,8 @@
 /* APS UNIP - Marquês */
 /* Membros do grupo: Bruno Bonavigo, Aluísio, Luís Rogério */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
 	--fundo-pagina: #FFF;
 	--fundo-barra: #00009a;
@@ -11,6 +13,7 @@
 
 body {
 	min-height: 100vh;
+	font-family: 'Roboto';
 	display: flex;
 	flex-direction: column;
 }
