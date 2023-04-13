@@ -26,7 +26,7 @@ nav {
 	border: 0;
 }
 
-@media (min-width: 426px) {
+@media (min-width: 577px) {
 	.parte-esquerda {
 		width: 50%;
 	}
@@ -41,7 +41,7 @@ nav {
 	}
 }
 
-@media (max-width: 425px) {
+@media (max-width: 576px) {
 	nav {
 		box-shadow: 0;
 	}
