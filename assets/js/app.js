@@ -1,6 +1,6 @@
 /* Por Bruno Bonavigo, 2023 */
 /* APS UNIP - Marquês */
-/* Membros do grupo: Bruno Bonavigo, Aluísio, Luís Rogério */
+/* Membros do grupo: Bruno Bonavigo, Luís Rogério e Raimundo */
 
 const FUNDACAO = {
 	trocarPagina(pagina) {
